@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <title>pagina teste</title>
+</head>
+
+<body>
+
+    <h1> TITULO EXEMPLO</h1>
+    <P>É OS GURI </P>
+    <p id="ulr">Vou mandar um Salve</p>
+
+
+
+
+</body>
+
+</html>

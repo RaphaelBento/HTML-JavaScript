@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="pt">
+<head>
+	<meta charset="utf-8">
+	<title>Casting</title>
+</head>
+	
+<body>
+	<h3>teste</h3>
+	<input type="text" id="teste">
+	<button type="button" id="botao" onclick="bota()"> aperte-me</button>
+	<input type="text" id="teste2">
+	<button type="button" id="botaop2" onclick="bota2()">aperte-me</button>
+	<br>
+	<button type="button" id="soma" onclick="soma1()">somar</button>
+	<h1>Abaixo o resultado da soma</h1>
+	<h1 id="result"></h1>
+</body>	
+	
+<script>
+	var x,y,soma;
+	x=document.getElementById("teste");
+	x=parseInt(x);
+y=document.getElementById("teste2");
+	y=parseInt(y);
+	soma=x+y;
+	function bota(){
+		x=document.getElementById("teste").value;
+	x=parseInt(x);
+		console.log(x);
+	}
+	
+function bota2(){
+	y=document.getElementById("teste2").value;
+	y=parseInt(y)
+	console.log(y);
+}	
+	function soma1(){
+		soma=x+y;
+	document.getElementById("result").innerHTML=soma;
+		
+	}
+	</script>	
+	
+</html>

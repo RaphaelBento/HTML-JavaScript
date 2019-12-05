@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<HTML>
+<head><meta charset='utf-8' </head>
+<body>
+
+function verificarSenha(){
+
+var S1=document.getElementById("senha").value;
+var S2=document.getElementById("ConfirmarSenha").value;
+if(S1!=S2){
+var msg =document.getElementById("Mensagem");
+msg.innerHTML="As senhas não conferem";
+msg.className="alert alert-danger";
+return false;
+}
+return true;
+
+}
+
+
+<form action="recebedados.html" method="get">
+<label> Nome:</label>
+<input type="text" id="nome" required><br/>
+
+<label> E-mail:</label>
+<input type="email" id="email"><br/>
+
+<label>Senha:</label>
+<input type="password" id="senha"><br/>
+
+<label> Confirmar Senha:</label>
+<input type="password" id="confirmar senha">
+<button type="submit"> Enviar Dados</button>
+<button type="reset">Limpar Dados</button>
+
+</form>
+</body>
+</HTML>
